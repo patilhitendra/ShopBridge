@@ -1,0 +1,28 @@
+.center{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    /* font-size: 20px; */
+    text-align: center;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mr-20{
+    margin-right: 20;
+}
+
+.react-confirm-alert-overlay{
+    background: rgb(32 29 29 / 55%) !important;
+}
+
+.error{
+    padding: 5px;
+    color: #ea0f3b;
+}
