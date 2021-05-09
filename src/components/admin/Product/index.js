@@ -12,7 +12,7 @@ import { Table, Container, Button, Row, Col } from 'react-bootstrap';
 import AddProductComponent from './AddProduct';
 import { CATEGORY } from '../../../utils/constants';
 
-class InventoryList extends Component {
+class ProductList extends Component {
 
   constructor(props){
     super(props);
@@ -214,4 +214,4 @@ const mapDispatchToProps = (dispatch, ownProps) => {
   }, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(InventoryList);
+export default connect(mapStateToProps, mapDispatchToProps)(ProductList);
