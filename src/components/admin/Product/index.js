@@ -29,24 +29,6 @@ class ProductList extends Component {
     // this.props.getAllProducts();
   }
 
-  // static getDerivedStateFromProps(newProps,prevState){
-  //   console.log("prevState.product",newProps.productsData.singleProduct)
-  //   console.log("newProps.productsData.singleProduct",newProps.productsData.singleProduct)
-  //   if (prevState.product !== newProps.productsData.singleProduct) {
-  //     return { ...prevState, product: newProps.productsData.singleProduct } 
-  //   }else{
-  //     // alert()
-  //     return { ...prevState, product: {} }
-  //   }
-  // }
-
-  // shouldComponentUpdate(nextProps, nextState){
-  //   if ( this.state.product !== nextProps.productsData.singleProduct) {
-  //     this.setState({product: nextProps.productsData.singleProduct}) 
-  //   }
-  //   return true;
-  // }
-
   componentWillReceiveProps(nextProps){
     if ( this.state.product !== nextProps.productsData.singleProduct) {
       this.setState({product: nextProps.productsData.singleProduct}) 
